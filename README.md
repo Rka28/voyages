@@ -24,4 +24,4 @@ cp .env.example .env
 npm run dev
 ```
 
-`VITE_API_URL` dans `.env` pointe vers l'API (par défaut `http://localhost:8000`).
+`VITE_API_URL` dans `.env` pointe vers l'API (par défaut `https://qyklv804.webmo.me`).

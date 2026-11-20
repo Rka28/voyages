@@ -126,7 +126,7 @@ export default function AdminDestinations() {
               <td>{d.capital}</td>
               <td>{d.region_name}</td>
               <td className="text-end">
-                {String(d.created_by) === String(user.id) && (
+                {String(d.creator_id) === String(user.id) && (
                   <Button size="sm" variant="outline-danger" onClick={() => setToDelete(d)}>
                     Supprimer
                   </Button>
