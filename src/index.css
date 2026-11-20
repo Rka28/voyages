@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+}
+
+.destination-card {
+  transition: transform 0.2s;
+}
+
+.destination-card:hover {
+  transform: translateY(-4px);
+}
+
+.destination-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.detail-img {
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.map {
+  height: 360px;
+}
+
+.auth-card {
+  max-width: 480px;
+}
+
+.thumb {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+}
